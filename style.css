@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e69292;
+  color: #333;
+}
+
+/* Navbar */
+nav ul {
+  list-style: none;
+  padding: 50;
+  margin: 20;
+  background-color: #611919;
+  overflow: hidden;
+}
+
+/* Affichage en ligne des éléments de la navbar */
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/* Liens de la navbar */
+nav ul li a {
+  color: rgb(125, 115, 120);
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #c08080;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #906565;
+}
+
+/* Tableau dans la section Work */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #1f1e1e;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Formulaire */
+form input,
+form textarea,
+form button {
+  width: 50%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Bouton */
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #611919;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Classes créatives (exemples) */
+.highlight {
+  background-color: #fffae6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
